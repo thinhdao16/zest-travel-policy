@@ -2,12 +2,13 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
-
 function SidebarLogo({ icon, text, ...props }) {
   return (
-    <div className="relative flex flex-row font-semibold text-3xl md:items-center md:mx-auto text-green-700 mb-5 p-4 justify-between">
+    <div className="relative flex flex-row font-semibold text-3xl md:items-center md:mx-auto text-navy-blue mb-5 p-4 justify-between">
       <Link to="/">
-        <FontAwesomeIcon icon={icon}></FontAwesomeIcon> {text}
+        <img src="" alt="" />
+        {/* <FontAwesomeIcon icon={logo}></FontAwesomeIcon> */}
+        {text}
       </Link>
       <button
         onClick={props.toggle}

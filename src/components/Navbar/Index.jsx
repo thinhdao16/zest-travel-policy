@@ -1,4 +1,4 @@
-import { faBars, faBell, faMessage } from "@fortawesome/free-solid-svg-icons";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
@@ -18,16 +18,7 @@ function Index({ toggle }) {
             </div>
             <div className="">
               <ul className="flex flex-row gap-4 items-center">
-                <li>
-                  <span className="h-9 w-9 cursor-pointer text-gray-600">
-                    <FontAwesomeIcon icon={faMessage} />
-                  </span>
-                </li>
-                <li>
-                  <span className="h-9 w-9 cursor-pointer text-gray-600">
-                    <FontAwesomeIcon icon={faBell} />
-                  </span>
-                </li>
+
                 <li>
                   <span>
                     <img

@@ -12,7 +12,7 @@
 }
 
 .mainCard {
-  @apply mx-auto md:px-6 lg:px-8 md:pb-6 md:pt-8 p-4 md:py-6;
+  @apply mx-auto md:px-6 lg:px-8 md:pb-6 md:pt-8 p-10 md:py-6 bg-white;
 }
 
 .widgetCard {
